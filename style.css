@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+  
+}  
+h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+/* Ensure image is responsive */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+section.bg-light {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* New gradient for the header */
+.custom-header {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    color: #333333;
+}
+
+.custom-header h1 {
+    font-size: 3rem;
+}
+
+.custom-header p {
+    font-size: 1.5rem;
+}
+
+
+/* Background and general section styling */
+
+/* Image styling */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    display: block; /* Prevent any inline spacing issues */
+}
+
+/* Responsive adjustments */
+
+
+
+@media (max-width: 768px) {
+   
+    .about-heading {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+       
+    }
+
+    .about-name {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+       
+    }
+
+    .about-role {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        
+    }
+
+    .about-description {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        
+    }
+}
+
+/* About section styling */
+
+.about-section {
+    padding: 60px 0; /* Add padding for spacing */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+ #about-img {
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure responsiveness */
+}
+#about-info{
+    flex: 1;
+    min-width: 300px; /* Minimum width to ensure responsiveness */
+    margin:auto 0;
+
+}
+
+#about-img{
+    margin:auto 0;
+}
+
+/* Heading styling */
+.about-heading {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    font-size: 4rem; /* Larger font size for prominence */
+    color: #333; /* Dark grey for readability */
+    margin-bottom: 15px; /* Spacing between heading and other content */
+    font-weight: bold; /* Bold for emphasis */
+   
+}
+
+/* Name styling */
+.about-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem; /* Prominent font size */
+    color: orange; /* Bootstrap primary color for a professional touch */
+    font-weight: 700; /* Bold for emphasis */
+    margin-bottom: 10px; /* Spacing below the name */
+  
+}
+
+/* Role styling */
+.about-role {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem; /* Slightly smaller than the name */
+    color: #555; /* Medium grey for a softer look */
+    margin-bottom: 20px; /* Spacing between role and description */
+    
+}
+
+/* Description styling */
+.about-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem; /* Larger font size for better readability */
+    color: #666; /* Light grey for better readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+    max-width: 90%; /* Ensures text doesn't stretch too wide on large screens */
+   
+}
+
+/* Image styling */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+    display: block; /* Prevent any inline spacing issues */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .about-section {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center content horizontally */
+    }
+
+    #about-info{
+        width: 100%; /* Full width for smaller screens */
+        text-align: center; /* Center align text for smaller screens */
+    }
+
+    .about-heading {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+    #about-img{
+        margin:auto 0;
+    }
+
+    .about-name {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .about-role {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .about-description {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+    .social-links{
+        display: flex;
+    }
+    #project1{
+        width:100%;
+    }
+    #project2{
+        width:100%;
+    }
+}
+
+@media(max-width:767px)
+{
+    #about-img{
+        margin-top: 40px;
+    }
+    
+    .social-links {
+        flex-direction: row; /* Ensure icons are in a row (one line) */
+        
+    }
+
+    .about-info{
+        text-align: center;
+    }
+
+    .about-description{
+        margin:0 auto;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content:center; /* Center-align icons horizontally */
+    gap: 15px; /* Space between icons */
+    margin-top: 20px; /* Space between text and icons */
+}
+   
+
+
+.social-icon img{
+    color: #333; /* Default icon color */
+    height:auto;
+    width:6rem;
+    margin: 0 20px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    
+}
+
+#skills .card {
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+#skills .card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+#skills .card-title {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    font-size: 1.5rem; /* Larger font size */
+    color: #333; /* Dark grey for readability */
+    font-weight: 700; /* Bold for emphasis */
+}
+
+#skills .card-text {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    font-size: 1.2rem; /* Medium font size */
+    color: #666; /* Light grey for better readability */
+}
+
+/* Projects Section */
+#projects .card {
+    width: 100%; /* Ensures card takes the full width of the column */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  #projects .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  #projects .card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  #contact{
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+    
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+

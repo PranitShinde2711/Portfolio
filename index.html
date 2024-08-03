@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="margin-left: 40px;font-family: cursive;" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" style="color:white;font-family: cursive;" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:white;font-family: cursive;" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:white;font-family: cursive;" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item" style="margin-right:25px;">
+          <a class="nav-link" style="color:white;font-family: cursive;" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Header Section -->
+<header class="custom-header text-white text-center py-5">
+    <div class="container">
+      <h1>Welcome to My Digital Portfolio</h1>
+      <p class="lead">A showcase of my work, skills, and professional journey</p>
+    </div>
+</header>
+  
+<!-- About Section -->
+<section id="about" class="py-5 about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" id="about-info">
+            <h2 class="about-heading">Hello, It's Me</h2>
+            <p class="about-name">PRANIT SHINDE</p>
+            <p class="about-role">And I'm a <span style="color: rgb(228, 15, 15);">Software Engineer</span></p>
+            <p class="about-description">
+                I am dedicated to creating innovative solutions and delivering high-quality results and solutions to problems using software tools and technologies.
+            </p>
+            
+            
+            
+        </div>
+        <div class="col-lg-5" id="about-img">
+          <img src="Images/fotor-20240803103254.jpg" alt="Your Photo" class="img-fluid rounded responsive-img">
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-gradient">
+  <div class="container">
+    <h2 class="text-center mb-4" style="font-family: cursive;font-size: 30px;color:black;">Skills</h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card1">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Programming Languages</h5>
+            <p class="card-text">Java, Python, C++</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card2">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 3 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card3">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Databases</h5>
+            <p class="card-text">MySQL</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card4">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tools & Technologies</h5>
+            <p class="card-text">Git, Github</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 5 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card5">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text">Collection Framework, OOP, JDBC, Hibernate</p>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 6 -->
+      <div class="col-lg-4 col-md-6 mb-4" id="card6">
+        <div class="card skill-card">
+          <div class="card-body text-center">
+            <h5 class="card-title">Frameworks</h5>
+            <p class="card-text"> Spring Boot</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center" style="font-family: cursive;font-size: 30px;color:black;">Projects</h2>
+    <div class="row justify-content-center" style="margin-top: 30px;gap: 40px;"> <!-- Centering the row -->
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch" id="project1"> <!-- Added d-flex and align-items-stretch -->
+        <div class="card w-100"> <!-- w-100 ensures the card takes full width of its column -->
+          <img src="Images/8037.jpg_wh1200.jpg" style="height:300px;" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Title: ATM Interface System for Bank Operations</p>
+            <p class="card-text">Technologies Used: Java, Spring Boot, Collection Framework.</p>
+            <p class="card-text">Developed a robust ATM interface to handle core banking functionalities such as
+              withdrawals, deposit and check bank balance.</p>
+            <a href="https://github.com/PranitShinde2711/AtmInterface" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch" id="project2"> <!-- Added d-flex and align-items-stretch -->
+        <div class="card w-100"> <!-- w-100 ensures the card takes full width of its column -->
+          <img src="Images/wp7566265.webp" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Title: FlexiCart - Intelligent Shopping Cart System</p>
+            <p class="card-text">Technologies Used: Java, Spring Boot, React.js</p>
+            <p class="card-text">eCommerce website by using the React.js as the frontend and Spring Boot as the
+              backend.The system is developed to add products to the cart, delete, update and search
+              for products.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center" style="font-family: cursive;font-size: 30px;color:black;">Contact Me</h2>
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="https://www.instagram.com/pranit_shinde_27?igsh=OW1pN3hsdWwwaTlk" target="_blank" class="social-icon">
+         <img src="Images/—Pngtree—instagram icon instagram logo_3584852.png" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/pranit-shinde-2a113b24a/" target="_blank" class="social-icon">
+          <img src="Images/icons8-linkedin-48.png" alt="">
+      </a>
+      <a href="https://github.com/PranitShinde2711" target="_blank" class="social-icon">
+          <img src="Images/icons8-github-50.png" alt="">
+      </a>
+
+      <a href="https://github.com/PranitShinde2711/Resume/blob/main/Pranit_Shinde_Resume.pdf" class="social-icon">
+        <img src="Images/resume-icon-logo-illustration-portfolio-symbol-template-for-graphic-and-web-design-collection-free-vector-removebg-preview.png"  alt="">
+      </a>
+      
+  </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p style="margin:auto ">&copy; 2024 Pranit Shinde. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
